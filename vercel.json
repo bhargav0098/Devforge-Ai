@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "functions": {
+    "app/api/chat/route.ts": { "maxDuration": 60 },
+    "app/api/generate-code/route.ts": { "maxDuration": 60 },
+    "app/api/generate-docs/route.ts": { "maxDuration": 60 },
+    "app/api/review-code/route.ts": { "maxDuration": 60 },
+    "app/api/create-sandbox/route.ts": { "maxDuration": 60 }
+  }
+}
